@@ -38,7 +38,7 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 %cmake_install
 
 %files
-%license COPYING
+%license /usr/share/doc/openttd/COPYING.md
 %doc README.md
 %{_exec_prefix}/games/openttd
 %{_datadir}/games/openttd
