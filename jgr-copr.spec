@@ -29,7 +29,7 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 
 %prep
 %autosetup -n %{name}-%{version}
-%global _ttd_bin openttd
+%global _ttd_bin openttd-jgrpp
 
 %build
 %cmake -DCMAKE_INSTALL_BINDIR=bin -DBINARY_NAME=%{_ttd_bin}
