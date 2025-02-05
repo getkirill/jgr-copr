@@ -40,11 +40,10 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 %files
 %license COPYING
 %doc README.md
-%{_bindir}/openttd
-%{_datadir}/openttd
+%{_exec_prefix}/games/openttd
+%{_datadir}/games/openttd
 %{_datadir}/applications/openttd.desktop
 %{_datadir}/icons/hicolor/*/apps/openttd.png
-%{_datadir}/metainfo/openttd.appdata.xml
 %{_mandir}/man6/openttd.6*
 
 %changelog
