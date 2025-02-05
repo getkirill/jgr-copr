@@ -15,7 +15,7 @@ BuildRequires:  make
 BuildRequires:  zlib-devel
 BuildRequires:  libpng-devel
 BuildRequires:  lzo-devel
-BuildRequires:  liblzma-devel
+BuildRequires:  xz-devel
 BuildRequires:  libzstd-devel
 BuildRequires:  freetype-devel
 BuildRequires:  fontconfig-devel
