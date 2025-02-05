@@ -1,8 +1,8 @@
 %global commit_hash %(git rev-parse --short HEAD)
 
 Name:           openttd-jgrpp
-Version:        0.0.0
-Release:        1.%{commit_hash}%{?dist}
+Version:        0.64.0
+Release:        1%{commit_hash}%{?dist}
 Summary:        JGRennison's OpenTTD Patch Pack
 
 License:        GPL-2.0-or-later
@@ -49,5 +49,6 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 %{_mandir}/man6/%{_ttd_bin}.6*
 
 %changelog
-* Wed Feb 05 2025 kraskaska <k.krasilnikov.2008@gmail.com> - 0.0.0-1
-- Initial package of JGRennison's OpenTTD Patch Pack
+* Wed Feb 05 2025 kraskaska <k.krasilnikov.2008@gmail.com> 0.64.0-1599a910b49
+- new package built with tito
+
