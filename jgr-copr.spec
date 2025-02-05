@@ -44,6 +44,7 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 %{_datadir}/games/openttd
 %{_datadir}/applications/openttd.desktop
 %{_datadir}/icons/hicolor/*/apps/openttd.png
+%{_datadir}/pixmaps/openttd*
 %{_mandir}/man6/openttd.6*
 
 %changelog
