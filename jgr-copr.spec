@@ -38,8 +38,8 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 %cmake_install
 
 %files
-%license /usr/share/doc/openttd/COPYING.md
-%doc README.md
+%license %{_docdir}/openttd/COPYING.md
+%doc %{_docdir}/openttd
 %{_exec_prefix}/games/openttd
 %{_datadir}/games/openttd
 %{_datadir}/applications/openttd.desktop
@@ -47,5 +47,5 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 %{_mandir}/man6/openttd.6*
 
 %changelog
-* Wed Feb 05 2025 Your Name <your.email@example.com> - 0.0.0-1
+* Wed Feb 05 2025 kraskaska <k.krasilnikov.2008@gmail.com> - 0.0.0-1
 - Initial package of JGRennison's OpenTTD Patch Pack
