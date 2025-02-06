@@ -52,6 +52,9 @@ for OpenTTD, a transport simulation game based on Transport Tycoon Deluxe.
 %{_mandir}/man6/%{_ttd_bin}.6*
 
 %changelog
+* Wed Feb 05 2025 kraskaska <k.krasilnikov.2008@gmail.com> 0.64.0-13c12497e53
+- add fluidsynth, harfbuzz and opus to deps (k.krasilnikov.2008@gmail.com)
+
 * Wed Feb 05 2025 kraskaska <k.krasilnikov.2008@gmail.com> 0.64.0-1599a910b49
 - new package built with tito
 
