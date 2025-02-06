@@ -22,6 +22,9 @@ BuildRequires:  fontconfig-devel
 BuildRequires:  SDL2-devel
 BuildRequires:  libicu-devel
 BuildRequires:  libcurl-devel
+BuildRequires:  fluidsynth-devel
+BuildRequires:  harfbuzz-devel
+BuildRequires:  opus-devel
 
 %description
 JGRennison's OpenTTD Patch Pack (JGRPP) is a collection of patches and features
